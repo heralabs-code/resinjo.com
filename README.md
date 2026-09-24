@@ -4,7 +4,7 @@ Source for **www.resinjo.com** – static one-page website for the ReSinJo shelv
 
 Plain HTML/CSS/vanilla JS, no build step, no framework. Open `index.html` directly in a browser to preview locally.
 
-- Design spec: [`docs/superpowers/specs/2026-09-11-resinjo-onepager-design.md`](docs/superpowers/specs/2026-09-11-resinjo-onepager-design.md)
+- Design and implementation notes are kept locally outside Git tracking.
 - German sister site: [resinjo.de](https://github.com/heralabs-code/resinjo.de) → www.resinjo.de
 
 ## Structure
