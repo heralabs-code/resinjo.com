@@ -13,12 +13,8 @@ Plain HTML/CSS/vanilla JS, no build step, no framework. Open `index.html` direct
 - `impressum.html` – legal notice
 - `datenschutz.html` – privacy information
 - `styles.css`, `script.js` – shared styling/behaviour (mobile nav)
-- `assets/` – placeholder favicon; `logo-placeholder.svg` is a reference copy only (not referenced by any page)
+- `assets/` – original RESINJO logo and favicon
 - `sitemap.xml`, `robots.txt`, `CNAME` – hosting/SEO config for GitHub Pages
-
-## Known placeholders
-
-Search for `PLACEHOLDER` in `index.html` and `impressum.html` — the comments mark where the final logo should go.
 
 **Before going live:** STRATO says its data processing agreement is included automatically for contracts entered into since 18 July 2022; check older contracts in the account. Clarify which privacy agreement actually covers GitHub Pages, assess international transfers, and define the internal retention period for enquiries. The operator says no data protection officer is currently appointed. Dealer links lead to independent shops.
 
