@@ -11,16 +11,19 @@ Plain HTML/CSS/vanilla JS, no build step, no framework. Open `index.html` direct
 
 - `index.html` – the one-page site
 - `impressum.html` – legal notice
+- `datenschutz.html` – privacy information
 - `styles.css`, `script.js` – shared styling/behaviour (mobile nav)
 - `assets/` – placeholder favicon; `logo-placeholder.svg` is a reference copy only (not referenced by any page)
 - `sitemap.xml`, `robots.txt`, `CNAME` – hosting/SEO config for GitHub Pages
 
 ## Known placeholders
 
-Search for `PLACEHOLDER` in `index.html` and `impressum.html` — contact details and legal register data still need to be filled in. This also finds the `PLACEHOLDER: swap this inline wordmark` comments marking where the real logo goes (it's inlined directly in the HTML in 2 places per file, not a swappable asset file).
+Search for `PLACEHOLDER` in `index.html` and `impressum.html` — the comments mark where the final logo should go.
 
-**Before going live:** also remove the italic disclaimer paragraph at the top of `impressum.html` ("This page is a draft template, not legal advice...") — it is plain text, not a `PLACEHOLDER` marker, so the search above will not find it.
+**Before going live:** STRATO says its data processing agreement is included automatically for contracts entered into since 18 July 2022; check older contracts in the account. Clarify which privacy agreement actually covers GitHub Pages, assess international transfers, and define the internal retention period for enquiries. The operator says no data protection officer is currently appointed. Dealer links lead to independent shops.
 
 ## Publishing changes
 
-This site has no build step — GitHub Pages serves the files in this repo exactly as committed. To publish a change: edit the file (directly on github.com, or however you prefer), commit it to the `main` branch, and it goes live at www.resinjo.com within about a minute. Don't delete or rename the `CNAME` file — that's what tells GitHub which domain to serve this site on.
+This site has no build step. Publishing with GitHub Pages requires Pages to be enabled and the domain's DNS records to point to GitHub Pages. The `CNAME` file only names the intended domain; it does not configure DNS.
+
+**Checked 24 September 2026:** `www.resinjo.com` currently resolves to STRATO and redirects over HTTP to `www.palettenregal.net`; HTTPS on `www.resinjo.com` fails. `https://heralabs-code.github.io/resinjo.com/` returns 404. The files in this repository are therefore not currently published at the ReSinJo domain. A commit to `main` alone will not change this.
